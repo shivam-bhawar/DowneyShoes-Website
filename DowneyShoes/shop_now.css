@@ -1,0 +1,91 @@
+#heading_area
+	{
+		background-color:black;	
+		height:200px;
+		margin:-15px 0px 5px 0px;		
+	}
+
+#logo
+	{
+		padding:50px;
+		font-family:Alegreya Sans SC;
+	}
+	
+#downey
+	{
+		background-color:lawngreen;
+		border:1px solid lawngreen;
+		padding:5px;
+	}
+
+#shoes
+	{
+		color:white;
+		border:1px solid white;
+		padding:5px;
+	}
+
+#shop_now_title
+	{
+		color:white;
+		font-family:Major Mono Display;
+		text-align:center;
+	}
+	
+ul
+	{
+		text-align:right;
+		margin-right:20px;
+	}
+	
+li
+	{
+		list-style:none;
+		padding:5px;
+		position:relative; bottom:200px; 
+	}
+				
+.navigation_menu
+	{
+		color:white;
+		font-family:Ubuntu;
+		text-decoration:none;
+	}
+				
+.navigation_menu:hover
+	{
+		color:lawngreen;
+	}
+
+img
+{
+	margin-top:30px;
+	margin-left:85px;
+	margin-right:85px;
+	padding:20px;
+	border:1px solid lightgray;
+}
+
+.product_name
+{
+	font-size:15px;
+	font-family:kanit;
+	margin-left:160px;
+	margin-right:140px;
+}
+
+.product_price
+{
+	font-size:15px;
+	font-family:kanit;
+	margin-left:145px;
+	margin-right:140px;
+}
+
+a	
+	{
+		color:white;
+		text-decoration:none;
+		background-color:black;
+		padding:5px 20px 5px 20px;
+	}
