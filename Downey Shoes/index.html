@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title> Home </title>
+		
+		<link href="home.css" rel="stylesheet"> <!-- link CSS file -->
+		
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap" rel="stylesheet"> <!-- font for logo "DOWNEY SHOES" -->
+		<link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> <!-- font for "HOME" title -->
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap" rel="stylesheet"> <!-- font for navigation menu -->
+		<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Lexend+Deca&display=swap" rel="stylesheet"> <!-- font for paragraph's heading -->
+		<link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet"> <!-- font for paragraph -->
+	
+	</head>
+	
+	<body>
+		
+			<div id="heading_area">
+				<h1 id="logo"> <span id="downey"> DOWNEY </span> <span id="shoes"> SHOES </span> </h1>
+				<h1 id="home_title"> Home </h1>
+				
+				<ul>
+					<li> <a href="index.html" title="Home page of Downey Shoes" class="navigation_menu"> Home </a> </li>
+					<li> <a href="login.php" title="Login into account" target="blank" class="navigation_menu"> Login </a> </li>
+					<li> <a href="signup.php" title="Create New Account" target="blank" class="navigation_menu"> Signup </a> </li>
+					<li> <a href="shop_now.html" title="Shop our products now" target="blank" class="navigation_menu"> Shop Now </a> </li>
+					<li> <a href="about_us.html" title="About the Developers" target="blank" class="navigation_menu"> About Us </a> </li>
+					<li> <a href="logout.php" title="Logout from account" target="blank" class="navigation_menu"> Logout </a> </li>
+				</ul>
+			</div>
+		
+			<img src="background_image_1.jpg" alt="Error" class="background_image">
+			<img src="background_image_2.jpg" alt="Error" class="background_image">
+			<img src="background_image_3.jpg" alt="Error" class="background_image">
+			<img src="background_image_4.jpg" alt="Error" class="background_image">
+			
+			<script> <!-- JavaSript for slideshow -->
+				var myIndex = 0;
+				carousel();
+
+				function carousel() 
+					{
+					var i;
+					var x = document.getElementsByClassName("background_image");
+					for (i = 0; i < x.length; i++) 
+						{
+						x[i].style.display = "none";  
+						}
+					myIndex++;
+					if (myIndex > x.length) 
+						{
+							myIndex = 1
+						}    
+					x[myIndex-1].style.display = "block";  
+					setTimeout(carousel, 2000); 
+					}
+			</script>
+		
+			<img src="home_paragraph_1.jpg" alt="Error" width="620px" id="paragraph_1_image">
+			<h2 id="paragraph_1_heading"> Nike DOWNSHIFTER </h2>
+			<p id="paragraph_1">	
+				Our mission is what drives us to do everything possible to expand human potential. We do that by creating groundbreaking 
+				sport innovations, by making our products more sustainably, by building a creative and diverse global team and by making 
+				a positive impact in communities where we live and work.  
+			</p>
+		
+			<img src="home_paragraph_2.jpg" alt="Error" width="620px" id="paragraph_2_image">
+			<h2 id="paragraph_2_heading"> Sneakers </h2>
+			<p id="paragraph_2">	
+				We bring to you this pair of sneakers which look attractive and stylish. They have been designed for men who need a pair 
+				of comfortable footwear for their day trips.
+			</p>
+		
+			<img src="home_paragraph_3.jpg" alt="Error" width="620px" id="paragraph_3_image">
+			<h2 id="paragraph_3_heading"> Sneakers </h2>
+			<p id="paragraph_3">	
+				A good pair of sneakers always comes in handy when you want to sport a casual look or an athleisure look for the day.
+			</p>
+		
+	</body>
+	
+</html>
