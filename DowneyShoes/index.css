@@ -1,0 +1,143 @@
+#heading_area
+	{
+		background-color:black;	
+		height:200px;
+		margin:-15px 0px 5px 0px;		
+	}
+
+#logo
+	{
+		padding:50px;
+		font-family:Alegreya Sans SC;
+	}
+	
+#downey
+	{
+		background-color:lawngreen;
+		border:1px solid lawngreen;
+		padding:5px;
+	}
+
+#shoes
+	{
+		color:white;
+		border:1px solid white;
+		padding:5px;
+	}
+
+#home_title
+	{
+		color:white;
+		font-family:Major Mono Display;
+		text-align:center;
+	}
+
+ul
+	{
+		text-align:right;
+		margin-right:20px;
+	}
+	
+li
+	{
+		list-style:none;
+		padding:5px;
+		position:relative; bottom:200px; 
+	}
+				
+.navigation_menu
+	{
+		color:white;
+		font-family:Ubuntu;
+		text-decoration:none;
+	}
+				
+.navigation_menu:hover
+	{
+		color:lawngreen;
+	}
+
+.background_image 
+	{
+		max-width:100%;
+		margin-bottom:15px;
+	}
+		
+#paragraph_1_image
+	{
+		float:right;
+	}
+
+#paragraph_1_heading
+	{
+		color:white;
+		font-size:20px;
+		font-family:Kanit;
+		background-color:black;
+		max-width:602px;
+		margin-bottom:-10px;
+		padding:10px;
+	}
+
+#paragraph_1
+	{
+		color:white;
+		font-family:Lexend Deca;
+		background-color:red;
+		text-align:justify;
+		max-width:522px;
+		padding:20px 50px 131px 50px;
+	}
+
+#paragraph_2_image
+	{
+		float:left;
+	}
+
+#paragraph_2_heading
+	{
+		color:white;
+		font-size:20px;
+		font-family:Kanit;
+		background-color:black;
+		margin-left:625px;
+		margin-bottom:-10px;
+		padding:10px;
+	}
+
+#paragraph_2
+	{
+		color:white;
+		font-family:Lexend Deca;
+		background-color:red;
+		text-align:justify;
+		margin-left:625px;
+		padding:20px 50px 171px 50px;
+	}
+
+#paragraph_3_image
+	{
+		float:right;
+	}
+
+#paragraph_3_heading
+	{
+		color:white;
+		font-size:20px;
+		font-family:Kanit;
+		background-color:black;
+		max-width:602px;
+		margin-bottom:-10px;
+		padding:10px;
+	}
+
+#paragraph_3
+	{
+		color:white;
+		font-family:Lexend Deca;
+		background-color:red;
+		text-align:justify;
+		max-width:522px;
+		padding:20px 50px 191px 50px;
+	}
+	

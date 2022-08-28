@@ -1,0 +1,89 @@
+#heading_area
+	{
+		background-color:black;	
+		height:200px;
+		margin:-15px 0px 5px 0px;		
+	}
+
+#logo
+	{
+		padding:50px;
+		font-family:Alegreya Sans SC;
+	}
+	
+#downey
+	{
+		background-color:lawngreen;
+		border:1px solid lawngreen;
+		padding:5px;
+	}
+
+#shoes
+	{
+		color:white;
+		border:1px solid white;
+		padding:5px;
+	}
+
+#payment_title
+	{
+		color:white;
+		font-family:Major Mono Display;
+		text-align:center;
+	}
+
+ul
+	{
+		text-align:right;
+		margin-right:20px;
+	}
+	
+li
+	{
+		list-style:none;
+		padding:5px;
+		position:relative; bottom:200px;
+	}
+				
+.navigation_menu
+	{
+		color:white;
+		font-family:Ubuntu;
+		text-decoration:none;
+	}
+				
+.navigation_menu:hover
+	{
+		color:lawngreen;
+	}
+
+h2
+	{
+		font-family:Kanit;
+		margin-left:50px;
+	}
+
+#checkbox
+	{
+		margin-left:50px;
+	}
+	
+#checkbox_label
+	{
+		font-family:Kanit;
+		font-size:20px;
+		margin-left:20px;
+	}
+
+button
+	{
+		color:white;
+		font-size:20px;
+		font-family:Kanit;
+		background-color:black;
+		border:1px solid black;
+		border-radius:5px;
+		margin-left:20px;
+		padding:5px;
+		width:100px;
+	}
